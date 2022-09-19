@@ -1,15 +1,18 @@
-import javax.lang.model.util.ElementScanner14;
-
 public class Bisseccao {
 
+    //Escreve sua função aqui
+    //Utilize Math.* para as funções
     public static double f(double x) {
         return Math.pow(x,2) - 4;
     }
     public static void main(String[] args) {
+        //Escreva os intervalos e o E 
         double A = 2.3;
         double B = 1.4;
-        double x = 0;
         double E = 0.0;
+        
+        //Não altere
+        double x = 0;
         int i = 0;
 
         if (f(A) * f(B) < 0) {
